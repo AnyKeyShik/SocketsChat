@@ -8,6 +8,7 @@ In this stage maintainer must improve code, fix codestyle and remove controversi
 List for client part:
 * Cleints can't exit from chat with EOF. They need to kill process for exit it's not so good because socket stays open
 * Endless while is BIG problem
+* Close socket at exit
 * Maybe smthing else...
 
 List for server part:
